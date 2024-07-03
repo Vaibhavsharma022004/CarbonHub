@@ -1,0 +1,185 @@
+* {
+  font-family: "Mulish", sans-serif;
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+  
+}
+
+
+
+.loginMainDiv {
+  width: 80%;
+  margin-top: 70px;
+  margin-left: 200px;
+  margin-bottom: 170px;
+}
+
+
+#loginImage{
+  position: absolute;
+  height: 800px;
+  width: 1200px;
+}
+
+.formMain{
+  margin-top: -1rem;
+  margin-left: 50px;
+}
+
+.loginForm {
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(207, 197, 167, 0.75);
+  border: 1px solid rgba(255, 193, 7, 1);
+  border-radius: 20px;
+  width: 50%;
+  margin-top: 80px;
+  padding: 40px;
+  margin-left: 270px;
+  /* padding-top: 40px; */
+  /* top: 80px; */
+}
+
+h2{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.paraForm{
+  text-align: center;
+  color: white;
+  margin: 1rem auto;
+}
+
+
+.formPara a{
+  text-decoration: none;
+  color: rgb(113, 249, 181);
+  font-weight: 600;
+}
+
+form label{
+  all: unset;
+}
+
+.labelForm{
+
+  display: block;
+  margin-left: 30px;
+  margin-right: 0;
+  font-size: 1rem;
+}
+
+.formInput{
+  width: 80%;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 40px;
+  margin-left: 30px;
+  margin-top: 5px;
+  background-color: #fff;
+}
+.formInput::placeholder{
+  font-size: 0.8rem;
+  padding-left: 8px;
+}
+
+.passwordForgot{
+  color: black;
+  margin: 19px 0 0 30px;
+  font-size: 0.9rem;
+}
+
+.formSubmit{
+  margin: 20px 10px 20px 30px;
+  width: 350px;
+  height: 47px;
+  border-radius: 25px;
+  /* padding: 10px 78px 10px 78px; */
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  background-image: linear-gradient(to bottom, rgba(29, 166, 132, 1), rgba(190, 220, 124, 0.99));
+}
+
+.hrLine{
+  display: flex;
+  align-items: baseline;
+  margin-left: 10px;
+  justify-content: center;
+  gap: 5px;
+}
+.straightLine{
+  border-bottom: 2px solid black;
+  width: 40%;
+}
+
+.icons{
+  margin-left: 205px;
+  overflow-y: hidden;
+  border-radius: 0.3rem;
+}
+
+
+.loginAs{
+  margin-left: 2.1rem;
+  margin-top: 1rem;
+}
+.loginCheck {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.customRadioLogin {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  border-radius: 20%;
+  /* background-color: red; */
+  cursor: pointer;
+  /* position: relative; */
+  
+}
+
+.loginAsInput {
+  display: none;
+}
+
+.loginAsInput[type="radio"]:checked + .customRadioLogin::after{
+  content: '';
+  width: 11px;
+  height: 11px;
+  background-color: white;
+  position: absolute;
+  border-radius: 20%;
+  top: 51.26%;
+  /* left: 26.4%; */
+  margin-left: 1%;
+  transform: translate(-50%, -50%);
+}
+
+.buttonSquare {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
+.labelTextLogin {
+  background-color: white;
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 0.7rem;
+  border-radius: 8px;
+  transition: all 0.5s ease-in;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.labelTextLogin:hover {
+  cursor: pointer;
+  background-color: unset;
+}
