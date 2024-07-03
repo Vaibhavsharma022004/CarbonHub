@@ -1,0 +1,154 @@
+.eclipse1stTree {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(152, 244, 222, 0.45);
+    position: absolute;
+    top: -6rem;
+    left: -4rem;
+    z-index: -2;
+    border-radius: 100%; 
+    border: 1px solid #98F4DE;
+  }
+
+.treeMainDiv{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
+    width: 80%;
+    margin: auto;
+    border-radius: 2rem;
+    padding: 3rem 9rem 3rem ;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    background-color: rgba(152, 244, 222, 0.45);
+    box-shadow: 10px 15px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.mainRectangle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    width: 200px;
+    height: 300px;
+    border-radius: 1em;
+    border: 1px solid rgba(0, 142, 204, 1);
+    margin: 1em;
+    background-color: rgba(231, 255, 246, 1);
+}
+
+.mainRectangle img{
+    height: 170px;
+    width: 170px;
+}
+
+.smallRectangle{
+    position: relative;
+    height: 70px;
+    width: 60px;
+    border-radius: 0 16px;
+    background-color: #4CAF4F;
+    left: 72px;
+    top: -1.5em;
+}
+
+.bottomPart{
+    background-color: rgba(203, 252, 223, 1);
+    width: 200px;
+    height: 190px;
+    padding: 1em;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: -1.5em;
+    flex-direction: column;
+}
+
+.horizontalLinee{
+    border-bottom: 3px solid rgba(237, 237, 237, 1);
+}
+
+.saving{
+    color: #4CAF4F;
+    font-size: 1.1rem;
+}
+
+.cardsDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(76, 175, 79, 1);
+    gap: 10px;
+    height: 550px;
+    margin: 40px;
+    background-color: rgba(205, 250, 239, 0.75);
+    box-shadow: 5px 10px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 25px 0px 25px 0px;
+}
+
+.cardImage1{
+    border-radius: 22px 0px 25px 0px;
+    width: 100%;
+    transform: scale(1.1);
+    object-fit: cover;
+}
+
+.textDiv{
+    margin: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardPara{
+    color: rgba(113, 128, 150, 1);
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+
+.readMoreDiv{
+    margin-top: 7%;
+    display: flex;
+    margin-left: 7px;
+    margin-right: 7px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cardPara2{
+    color: rgba(113, 128, 150, 1);
+    font-size: 14px;
+}
+ 
+.readMoreButton{
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    border: 1.5px solid rgba(251, 39, 128, 1);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.eclipse2ndTree {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(152, 244, 222, 0.45);
+    position: absolute;
+    top: 88rem;
+    right: -4rem;
+    z-index: -2;
+    border-radius: 100%; 
+    border: 1px solid #98F4DE;
+
+  }
