@@ -1,0 +1,75 @@
+.eclipse1stDetail {
+    height: 709px;
+    width: 696px;
+    background-color: rgba(152, 244, 222, 0.45);
+    border: 1px solid rgba(76, 175, 79, 0.5);
+    position: absolute;
+    top: -180px;
+    left: -220px;
+    z-index: -2;
+    border-radius: 100%;
+}
+
+.detailMainDiv{
+    box-shadow: 5px 15px 4px 0 rgba(0, 0, 0, 0.25);
+    width: 80%;
+    padding: 3rem;
+    margin: 5rem auto;
+    border-radius: 2rem;
+    background-color: rgba(152, 244, 222, 0.45);
+}
+
+.detailDiv{
+    display: flex;
+    margin: 2em auto;
+    gap: 2rem;
+}
+
+.horizontalLineDetail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot1, .dot2{
+    height: 10px;
+    width: 10px;
+    background-color: #4CAF4F;
+    border-radius: 100%;
+}
+
+.hrLineDetail{
+    border-bottom: 3px solid #4CAF4F;
+    width: 100%;
+}
+
+.detailDiv img{
+    height: 180px;
+    width: 367px;
+}
+
+.detailText{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1.7rem; */
+    justify-content: space-evenly;
+}
+
+.detailDiv p{
+    font-size: 1.2rem;
+}
+
+/* Eclipse 2 */
+.eclipse2ndDetail {
+    height: 609px;
+    width: 656px;
+    background-color: rgba(152, 244, 222, 0.77);
+    position: absolute;
+    border: 1px solid rgba(76, 175, 79, 0.5);
+    top: 955px;
+    left: 1000px;
+    opacity: 45%;
+    z-index: -2;
+    border-radius: 100%;
+}
