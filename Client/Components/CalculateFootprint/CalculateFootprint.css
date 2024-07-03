@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+.eclipse1Calculate {
+  height: 500px;
+  width: 500px;
+  background-color: rgba(152, 244, 222, 0.45);
+  position: absolute;
+  top: -6rem;
+  left: -4rem;
+  z-index: -2;
+  border-radius: 100%;
+  border: 1px solid #98f4de;
+}
+
+.heading1 {
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Service1 {
+  margin-top: 60px;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-bottom: 60px;
+  background-color: rgba(152, 244, 222, 0.6);
+  border-radius: 30px;
+  border: 1px solid #98f4de;
+}
+
+.eclipse2Calculate {
+  height: 500px;
+  width: 500px;
+  background-color: rgba(152, 244, 222, 0.45);
+  position: absolute;
+  top: 40rem;
+  right: -5rem;
+  z-index: -2;
+  border-radius: 100%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+.title2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  padding-left: 30px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.input-box,
+.result-box {
+  padding: 5px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 190px;
+}
+
+.constant {
+  background-color: #ffffff;
+  width: 55px;
+  padding: 5px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.result-box {
+  width: 370px;
+}
+
+.result-box2 {
+  padding: 5px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 190px;
+  width: 170px;
+}
+
+.operator {
+  font-size: 1.5em;
+  margin: 0 5px;
+}
+
+.saveButtonDiv{
+  gap: 20px;
+}
