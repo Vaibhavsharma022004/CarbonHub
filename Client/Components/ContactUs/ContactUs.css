@@ -1,0 +1,282 @@
+.eclipse1Contact {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(152, 244, 222, 0.45);
+    position: absolute;
+    top: -6rem;
+    left: -4rem;
+    z-index: -2;
+    border-radius: 100%; 
+    border: 1px solid #98F4DE;
+  }
+
+/* Form div */
+
+.mainFormDiv {
+    background-color: rgba(152, 244, 222, 0.45);
+    width: 80%;
+    margin: 100px auto 100px auto;
+    box-shadow: 10px 15px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.formDivChild {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+    color: rgba(29, 33, 48, 1);
+    padding: 20px 40px;
+}
+
+.leftRight {
+    margin: 50px auto 50px auto;
+    margin-top: 50px;
+    display: flex;
+    overflow: hidden;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.leftSideContact {
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    gap: 2%;
+    height: 10rem;
+}
+
+.hrLineAndContact {
+    display: flex;
+    gap: 2.7%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    align-items: baseline;
+}
+
+.horizontalLine {
+    width: 15%;
+    border-bottom: 2.4px solid rgba(29, 33, 48, 1);
+}
+
+h1 {
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-left: 4rem;
+    text-align: left;
+}
+
+.contactNGO {
+    font-size: 16px;
+}
+
+.rightSide {
+    width: 320px;
+    display: flex;
+    gap: 4%;
+    height: 10rem;
+    flex-direction: column;
+}
+
+.rightHead {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: start;
+}
+
+.rightDiv1 {
+    width: 100%;
+    display: flex;
+    gap: 3.6%;
+}
+
+.rightDiv1 p {
+    font-size: 14px;
+}
+
+.web {
+    text-decoration: none;
+    color: rgba(29, 33, 48, 1);
+}
+
+.contactPara {
+    margin-top: 2%;
+    text-align: left;
+    overflow: hidden;
+    margin-left: 4rem;
+}
+
+.horizontalLine2 {
+    width: 75%;
+    border-bottom: 2.4px solid rgba(229, 229, 229, 1);
+    margin: 4.8% 0;
+}
+
+.headOffice {
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: start;
+}
+
+form {
+    margin: 70px;
+    margin-bottom: 20px;
+    margin-left: -3rem;
+    padding: 30px;
+}
+
+.formDiv{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.c1, .c2{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 25px 0;
+}
+
+.c2{
+    margin-left: 8.4rem;
+}
+
+#subject, .subjectLabel{
+    margin-left: 3rem;
+}
+
+#subject{
+    margin-top: 1rem;
+    width: 80%;
+    height: 32px;
+}
+
+#email{
+    height: 32px;
+    margin-top: 1rem;
+    width:80%;
+}
+
+.formRow1, .row3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row2Contact{
+    display: flex;
+    gap: 7.4rem;
+    margin-left: 8.6rem;
+    width: 100%;
+}
+
+
+.row4 {
+    display: flex;
+    justify-content: space-around;   
+}
+
+.lastName{
+    margin-left: 1rem;
+}
+
+#firstName{
+    margin-top: 1rem;
+    width: 35%;
+    /* margin-left: -11rem; */
+}
+#lastName{
+    height: 32px;
+    margin-top: 1rem;
+    width:35%;
+}
+form input{
+    background-color: transparent;
+    width: 50%;
+    border: unset;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+
+/* form label{
+    margin-left: -3rem;
+    font-size: 0.8rem;
+} */
+
+.emailLabel{
+    margin-right: 11.6rem;
+    font-size: 1rem;
+}
+
+.firstNameLabel{
+    font-size: 1rem;
+    margin-left: -8rem;
+}
+
+.lastNameLabel{
+    font-size: 1rem;
+    margin-left: -10rem;
+}
+
+.subjectLabel{
+    margin-right: 10.9rem;
+    font-size: 1rem;
+}
+
+.textAreaDiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 87px;
+    gap: 10px;
+}
+
+#formBox{
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 20px 0 0 20px;
+}
+
+#formBox::placeholder{
+    color: rgba(29, 33, 48, 0.5);
+}
+
+form button{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #4CAF4F;
+    color: white;
+    border: unset;
+    text-align: center;
+    margin: 30px 0 0 450px;
+    font-size: 1rem;
+    transform: translate(1);
+    transition: all 0.8s ease-in-out;
+}
+
+form button:hover{
+    color: #4CAF4F;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: rgba(179, 244, 172, 0.5) 0 1px 30px;
+    transform: translate(0, 2px, 0);
+}
+
+
+/* Eclipse 2 */
+.eclipse2Contact {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(152, 244, 222, 0.45);
+    position: absolute;
+    top: 65rem;
+    right: -4rem;
+    border: 1px solid #98F4DE;
+    z-index: -2;
+    border-radius: 100%; 
+
+  }
