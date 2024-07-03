@@ -1,0 +1,374 @@
+.heroContent{
+  width: 100vw;
+  background-color: #F5F7FA;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.heroSection{
+  background-color: #F5F7FA;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.heroLeft{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+
+}
+
+.heroHeading{
+  color: rgb(50, 50, 50);
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  font-size: 45px;
+  text-align: unset;
+}
+
+.paraHero{
+  font-weight: 500;
+  margin-top: 10px;
+  color: #717171;
+  margin-left: 3em;
+  font-size: 20px;
+
+}
+
+.buttonHero{
+  margin-top: 20px;
+  margin-left: 60px;
+  align-items: flex-start;
+  background-color: #4CAF4F;
+  color: white;
+  width: 100px;
+  height: 45px;
+  border: none;
+  background-position: 0 90%;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  padding: 6px 25px 10px 10px;
+  font-size: 20px;
+  border-radius: 6px;
+  transform: scale(1);
+  transition: all 0.75s ease-in;
+}
+
+.buttonHero:hover{
+  cursor: pointer;
+  transform: translate(0, 2px, 0);
+  color: #4CAF4F;
+  background-color: white;
+  box-shadow: rgba(179, 244, 172, 0.5) 0 1px 30px;
+}
+
+.clientSection{
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+  margin: auto;
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
+  height: 20rem;
+}
+
+.clientHeading{
+  text-align: center;
+  font-size: 40px;
+  line-height: 44px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.clientPara{
+  overflow: hidden;
+  font-size: 25px;
+  line-height: 24px;
+  text-align: center;
+
+}
+
+.client-image-div{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.client-image-div img{
+  transform: scale(0.9);
+  height: 2em;
+  transition: all 0.5s ease-in;
+}
+
+.client-image-div img:hover{
+  transform: scale(1);
+  overflow: hidden;
+}
+
+/* COMMUNITY SECTION */
+
+.communitySection{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  width: 70%;
+}
+
+.communityHeading{
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.communityPara{
+  text-align: center;
+  font-size: 28px;
+  margin-top: -15px;
+}
+
+.cards{
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  height: 20em;
+  width: 100%;
+  margin: auto;
+  margin-top: 4em;
+}
+
+
+.communityCards{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 20px;
+  height: 250px;
+  margin: auto;
+  margin-top: 1.4rem;
+  width: 320px;
+  transform: scale(0.9);
+  transition: all 0.5s ease-in;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.communityCards:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transform: scale(1);
+}
+
+.cardHeading{
+  font-size: 20px;
+  
+}
+
+.cardImage{
+  width: 65px;
+  height: 56px;
+}
+
+/* ACHIEVEMENTS SECTION */
+.achievements{
+  background-color: rgba(245, 247, 250, 1);
+  
+}
+
+.achievementContent{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.leftSide{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 25px;
+  text-align: center;
+}
+
+.achievementHeading{
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.greenText{
+  color: #4CAF4F;
+}
+
+.achievementPara{
+  font-size: 16.5px;
+  font-weight: 500;
+  margin-bottom: -15px;
+}
+
+.rightSideAchieve{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  width: 50%;
+  margin-left: 120px;
+}
+
+.achievementCount{
+  display: flex;
+  margin: 20px;
+  padding: 5px;
+  transform: scale(1);
+  transition: all 0.5s ease-in;
+}
+
+.achievementCount:hover{
+  transform: scale(1.1);
+}
+
+
+.left{
+  margin-right: 15px;
+}
+
+.number{
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text{
+  margin: 5px;
+}
+/* MARKETING SECTION */
+
+.marketingSection{
+  width: 80%;
+  margin: auto;
+}
+
+
+.marketingText{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  margin-top: 30px;
+  width: 60%;
+  text-align: center;
+}
+
+.marketingHeading{
+  font-size: 35px;
+}
+
+.marketingPara{
+  font-size: 20px;
+}
+
+
+.marketingGrid{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin: 100px auto 100px auto;
+
+}
+
+
+.marketingGrid img{
+  overflow: hidden;
+  transform: scale(0.95);
+  transition: all 0.5s ease-in;
+
+}
+.marketingGrid img:hover{
+  overflow: hidden;
+  transform: scale(1);
+}
+
+/* FOOTER */
+.footer{
+  background-color: rgba(245, 247, 250, 1);
+  text-align: center;
+  margin-top: -40px;
+}
+
+.footerContent{
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  /* margin-top: 40px; */
+  padding: auto;
+}
+.headingFooter{
+  margin: auto;
+  margin-top: 100px;
+  font-size: 64px;
+  text-align: center;
+  line-height: 76px;
+}
+
+.buttonDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.footerButton{
+  margin: auto;
+  border-radius: 10px;
+  width: 182px;
+  height: 52px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  background-color: #4CAF4F;
+  transform: scale(1);
+  transition: all 0.75s ease-in;
+  padding: 6px 21px 10px 15px;
+
+}
+
+
+.footerButton:hover{
+  cursor: pointer;
+  transform: translate(0, 2px, 0);
+  color: #4CAF4F;
+  background-color: white;
+  box-shadow: rgba(179, 244, 172, 0.5) 0 1px 30px;
+
+}
+.greenArrow{
+  transform: scale(2.2);
+  position: relative;
+  right: 10px;
+  opacity: 0;
+}
+
+.footerButton:hover .greenArrow{
+  opacity: 1;
+}
+
+.footerArrow{
+  width: 22px;
+  height: 22px;
+  position: relative;
+  top: 4.9px;
+  left: 7px;
+  color: black;
+}
